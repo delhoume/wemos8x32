@@ -1,0 +1,4 @@
+./convert.py sunny.json
+split -b 192 sunny.bin sunny.
+cat ppmheader sunny.aa > sunny1.ppm
+magick convert sunny1.ppm sunny1.bmp
